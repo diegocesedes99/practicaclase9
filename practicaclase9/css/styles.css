@@ -1,0 +1,98 @@
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header{
+	background-color: red;
+	height: 100px;
+}
+
+#top{
+	background-color: yellow;
+	width: 250px;
+	height: 500px;
+	float: left;
+	position: relative; /*siempre van de la mano*/
+}
+
+#bottom{
+	color: white;
+	background-color: purple;
+	width: 250px;
+	height: 500px;
+	float: left;
+	position: relative;
+}
+
+#right{
+	color: white;
+	background-color: midnightblue;
+	width: 250px;
+	height: 500px;
+	float: left;
+	position: relative;
+}
+
+#left{
+	color: white;
+	background-color: green;
+	width: 250px;
+	height: 500px;
+	float: left;
+	position: relative;
+}
+
+#lista1{
+	background-color: blue;
+	width: 500px;
+	height: 300px;
+	float: left;
+	
+}
+
+#lista2{
+	background-color: gray;
+	width: 500px;
+	height: 300px;
+	float: left;
+	
+}
+
+#footer{
+	background-color: red;
+	width: 1000px;
+	height: 50px;
+	
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.a{
+	position: absolute;
+	top: 0 ;
+	left: 0 ;
+
+}
+
+.b{
+	position: absolute;
+	bottom: 0 ;
+	right: 0 ;
+}
+
+.c{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.d{
+	position: absolute;
+	bottom: 0;
+	left: 0 ;
+}
